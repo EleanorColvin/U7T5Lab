@@ -47,13 +47,12 @@ public class SearchTest {
 
 
         // TEST PART F -- UNCOMMENT TEST CODE
-        /*
+
         System.out.println(Search.linearSearchCount(numArray2, 5));
         System.out.println(Search.linearSearchCount(numArray2, 9));
 
         ArrayList<Integer> numArrayList2 = new ArrayList<Integer>(Arrays.asList(5, 1, 5, 4, 7, 5, 2, 5, 8, 8, 5, 10, 5));
         System.out.println(Search.linearSearchCount(numArrayList2, 5));
         System.out.println(Search.linearSearchCount(numArrayList2, 9));
-         */
     }
 }

@@ -99,6 +99,19 @@ public class Search {
         return times;
     }
 
+    public static int linearSearchCount(ArrayList<Integer> intList, int target)
+    {
+        int times = 0;
+        for (int i = 0; i < intList.size(); i++)
+        {
+            if (intList.get(i) == target)
+            {
+                times++;
+            }
+        }
+        return times;
+    }
+
 
 
 }
